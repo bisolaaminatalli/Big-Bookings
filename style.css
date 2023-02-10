@@ -1,0 +1,329 @@
+@font-face {
+  font-family: NexaLight ;
+  src: url("./NexaBold/Nexa\ Light.otf");
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+
+
+body {
+  margin: 0px;
+}
+
+.overall-parent {
+
+}
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.hero-section {
+  margin: 0px;
+  background-image: url(/full-shot-woman-taking-selfie\ 1\ \(1\).png);
+  background-size: cover;
+  height:100%;
+  width: 100%;
+  background-position: center;
+}
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+}
+.nav-parent a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav-link-bl::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border: 1px solid white;
+  margin: 0px 8px;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 580px;
+}
+
+.nav-innerflextwo {
+  padding-bottom: 20px;
+}
+.nav-innerflextwo a {
+  margin-left: 20px;
+}
+.nav-link-two {
+  padding-bottom: 20px;
+}
+.menu-button{
+  width: 30px;
+ }
+ .menu-button{
+  border-radius: 10px;
+  border: 2px solid red;
+  width: 100px;
+ display: none;
+ }
+
+ .hero-text-one{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  color: white;
+  font-style: normal;
+  width: 412px;
+  height: 130px;
+  font-family: "Nexa Bold";
+ }
+
+ .hero-text-one p{
+   margin-top: 100px 0px; 
+ }
+
+ .hero-transparent {
+   
+     
+     
+ }
+
+ .sub-transparent{
+      background: rgba(105, 152, 221, 0.5);
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      border: 5px;
+      margin-top: 70px;
+      padding: 20px;    
+ }
+
+ .transperent-section span{
+  font-weight: 700;
+  font-size: 24px;
+  color: white ;
+  margin-top:  25px;
+  font-family: "Nexa Bold";
+ }
+
+ .transparent-flexparent-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  color:white ;
+  font-style: normal;
+   font-weight: 700;
+  font-size: 16px;
+   margin-top: 30px;
+   
+ }
+ .flex-item-one{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+ }
+ .flex-item-two{
+  display: flex;
+  gap: 10px;
+
+ }
+ .flex-item-three{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+ }
+
+.div-object-one{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius:10px 0 0 10px;
+  padding: 10px; 
+  font-family: 'NexaFreeLightwebfont';
+  border-right:3px solid #808080;
+}
+
+.div-class-two{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius:10px;
+  padding: 10px; 
+  font-family: 'NexaFreeLightwebfont';
+ 
+  border-radius:0px 10px 10px 0px;
+  
+}
+.object-item-one{
+  background-color:#FB8500;
+  border-radius: 50%;
+  width: 33px;
+  height: 35px;
+ 
+}
+.object-item-one img{
+  margin: 10px 5px;
+}
+.object-item-two span{
+display: block;
+color: #808080;
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+font-family: "NexaLight";
+}
+.div-object-one{
+
+}
+.div-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;  
+}
+
+.object-item-two input{
+  border-left:0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top:0px;
+  outline: none;
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "NexaLight";
+}
+.object1{
+  display: flex;
+  align-items: center;
+  
+
+}
+.objecting{
+ 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius:10px;
+  padding: 10px; 
+  font-family: 'NexaFreeLightwebfont';
+ 
+}
+.group-content span{
+  display: block;
+color: #808080;
+font-weight: 700;
+font-size: 16px;
+font-size: 16px;
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+font-family: "NexaLight";
+}
+.calendar-content span{
+  display: block;
+  color: #808080;
+font-size: 16px;
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+font-family: "NexaLight";
+}
+.group-one img{
+  border-radius: 50%;
+  border: 1px solid rgba(164, 164, 164, 0.5);
+  width: 33px;
+  height: 33px;
+
+
+}
+
+.calendar-img img{
+  border-radius: 50%;
+  border: 1px solid rgba(164, 164, 164, 0.5);
+   width: 33px;
+  height: 33px;
+ 
+  
+
+}
+
+.calendar-content input{
+  border-left:0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top:0px;
+  outline: none;
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "NexaLight";
+}
+.group-content input{
+  border-left:0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top:0px;
+  outline: none;
+  margin-top: 5px;
+  font-weight: 700;
+   font-size: 16px;
+    font-style: normal;
+    font-family: "NexaLight";
+
+}
+@media only screen and (max-width: 500px) {
+  .menu-button{
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 100px;   
+    padding:10px 10px;
+    display: block; 
+   }
+
+   .nav-innerflextwo{
+    visibility: hidden;
+   }
+ .nav-link-two{
+  visibility: hidden;
+ }
+
+ .hero-section{
+  height: 1000vh;
+  width: 100vw;
+ }
+ .sub-transparent{
+  flex-direction: column;
+ }
+ .hero-text-one{
+  width:100%
+ }
+ .transparent-flexparent-one{
+  flex-direction: column;
+  align-items: flex-start;
+ }
+ 
+.div-flex{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.object1{
+  flex-direction: column;
+}
+}
